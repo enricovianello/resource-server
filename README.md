@@ -6,3 +6,16 @@ The resource server holds the SCIM based user data.
 
 The documentation is contained in this repo and can be
 found [here](docs/README.md).
+
+## Usage
+
+Prerequisites:
+
+- `osiam` MySQL database exists and it's empty
+- check `resource-server.properties` MySQL user info and make it matches with your MySQL installation.
+
+Launch:
+
+```
+mvn clean spring-boot:run
+```
