@@ -12,7 +12,7 @@ found [here](docs/README.md).
 Prerequisites:
 
 - `osiam` MySQL database exists and it's empty
-- check `resource-server.properties` MySQL user info and make it matches with your MySQL installation.
+- check [`resource-server.properties`](https://github.com/enricovianello/resource-server/blob/iam-rs/src/main/resources/resource-server.properties) MySQL user info and make it matches with your MySQL installation.
 
 Launch:
 
